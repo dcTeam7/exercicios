@@ -1,4 +1,5 @@
 import React from 'react';
+import './ButtonCount.css'
 
 type Props = {count: number; setCount: React.Dispatch<React.SetStateAction<number>>}
 
@@ -8,7 +9,7 @@ export default function ButtonCount(props: Props) {
         props.setCount((c) => c + 1) // forma mais precisa de realizar a contagem
     }
     return (
-        <button onClick={handclik}>
+        <button className='butauzin' onClick={handclik}>
             count is <span>{props.count}</span>
         </button>
     )
