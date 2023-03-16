@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react"
 
 export default function Button(props: { count: number }) {
   const [count, setCount] = useState(props.count);

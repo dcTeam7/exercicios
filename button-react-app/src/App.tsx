@@ -1,7 +1,6 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-import Button from "./Button";
+import reactLogo from "./assets/react.svg"
+import "./App.css"
+import Button from "./Button"
 
 function App() {
   return (
@@ -25,7 +24,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
