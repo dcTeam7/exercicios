@@ -34,6 +34,12 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 1s linear;
   }
+  a:nth-of-type(3) .logo {
+    animation: logo-spin infinite 5s linear;
+  }
+  a:nth-of-type(4) .logo {
+    animation: logo-spin infinite 15s linear;
+  }
 }
 
 .card {
@@ -47,4 +53,10 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.squad {
+  display: flex;
+  background-color: #262626;
+  padding: 10px
 }

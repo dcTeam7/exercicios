@@ -1,22 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import ButtonCount from './ButtonCount'
+import Image from './Image'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='squad'>
+        <Image url="https://github.com/KevinDik.png"nome="Kevin Diego"/> 
+        <Image url="https://github.com/Bruno-GSilva.png"nome="Bruno"/> 
+        <Image url="https://github.com/chicoedumacedo.png" nome="Eduardo"/> 
+        <Image url="https://github.com/LucasDCoelho.png" nome="lucas"/> 
       </div>
-      <h1>Vite + React</h1>
+      <h1>Suicide Squad</h1>
       <div className="card">
         <ButtonCount count={count} setCount={setCount} />
         <p>
