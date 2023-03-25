@@ -7,7 +7,9 @@ let initialStories = [
 ];
 
 export default function App() {
-  let [stories, setStories] = React.useState([...initialStories])
+  let [stories] = React.useState([...initialStories])
+
+  console.log(stories);
   let time = useTime();
 
   // HACK: Prevent the memory from growing forever while you read docs.

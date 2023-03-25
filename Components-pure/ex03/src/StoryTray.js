@@ -2,7 +2,7 @@ import React from "react";
 
 export default function StoryTray({ stories }) {
   stories.push({
-    id: 'create',
+    id: stories.id,
     label: 'Create Story'
   });
 
