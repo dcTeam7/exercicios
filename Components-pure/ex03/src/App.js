@@ -9,7 +9,6 @@ let initialStories = [
 export default function App() {
   let [stories] = React.useState([...initialStories])
 
-  console.log(stories);
   let time = useTime();
 
   // HACK: Prevent the memory from growing forever while you read docs.

@@ -1,14 +1,17 @@
-import React from "react";
-
+import React from 'react'
 export default function StoryTray({ stories }) {
-  stories.push({
-    id: stories.id,
+
+  const storiesTratado = stories.map(item => item)
+  const [chave] = React.useState([...storiesTratado])
+  
+  storiesTratado.push({
+    id: chave,
     label: 'Create Story'
   });
 
   return (
     <ul>
-      {stories.map(story => (
+      {storiesTratado.map(story => (
         <li key={story.id}>
           {story.label}
         </li>
