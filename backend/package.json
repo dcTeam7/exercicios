@@ -1,0 +1,21 @@
+{
+  "name": "meu-projeto",
+  "version": "0.0.1",
+  "description": "qualquer coisa ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "print-file": "cat ./server.js",
+    "search-mdx": "npm search mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AbraaoAlves",
+  "private": "true",
+  "dependencies": {
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22"
+  }
+}
